@@ -21,5 +21,5 @@ module.exports = function check(str, bracketsConfig) {
 
   }
 
-  return true;
+  return (!stack.length); //если на выходе стэк пустой, то последовательность правильная
 };
